@@ -24,8 +24,8 @@ const App = () => {
             <Hero/>
             <ComparisonSection/>
             {/* <TruthSection/> */}
-            <AskSection/>
-            <CTA1/>
+            {/* <AskSection/> */}
+            {/* <CTA1/> */}
             <ImageSlider/>
             <WhatWeOffer />
             <WhyGoodFilmsMatter/>

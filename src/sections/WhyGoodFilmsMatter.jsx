@@ -14,40 +14,7 @@ const WhyGoodFilmsMatter = () => {
                 {/* Content */}
                 <div className='space-y-2 font-poppins'>
                     {/* First paragraph */}
-                    <div className='text-center'>
-                        <div className='rounded-xl px-8 py-4'>
-                            <p className='text-lg md:text-3xl font-bold text-gray-800 leading-tight mb-4'>
-                                Relationships change with time.
-                            </p>
-                            <p className='text-lg md:text-3xl text-gray-600 leading-relaxed'>
-                                What feels easy today might feel different tomorrow. That's life.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Second paragraph with emphasis */}
-                    <div className='text-center'>
-                        <div className='rounded-xl px-8 py-4'>
-                            <p className='text-lg font-bold md:text-3xl text-gray-800 leading-tight mb-4'>
-                                And when life tests you, a good wedding film becomes your reminder.
-                            </p>
-                            <p className='text-lg md:text-3xl text-gray-600 leading-relaxed'>
-                                It brings you back to where it all started — how you looked at each other, what you promised, what you felt.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Highlighted section */}
-                    <div className='rounded-2xl px-8 py-4'>
-                        <div className='text-center space-y-6'>
-                            <p className='text-lg font-bold md:text-3xl text-gray-800 leading-tight mb-4'>
-                                This isn't made for reels or likes.
-                            </p>
-                            <p className='text-lg md:text-3xl text-gray-800 leading-relaxed'>
-                                It's made for you — to always remember what you built together.
-                            </p>
-                        </div>
-                    </div>
+                    <p className='text-center'>We're relaunching our wedding photography services after a 3-year break. And to restart strong, this is our way to pace up again, build trust, and reconnect with the work. This is not a discount or a scheme — just an early bird offer.</p>
                 </div>
             </div>
         </div>

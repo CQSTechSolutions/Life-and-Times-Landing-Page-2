@@ -21,7 +21,7 @@ const ImageSlider = () => {
     ];
 
     return (
-        <div className='py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-white via-gray-50 to-white'>
+        <div className='pb-16 sm:py-20 lg:py-24 bg-gradient-to-br from-white via-gray-50 to-white'>
             {/* Section Header */}
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 sm:mb-16 lg:mb-20'>
                 <div className='text-center'>

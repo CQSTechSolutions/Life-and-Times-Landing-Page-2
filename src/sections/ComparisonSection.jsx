@@ -7,7 +7,8 @@ const ComparisonSection = () => {
         "Only 3 slots available"
     ]
     return (
-        <div className='p-4 py-24 my-4'>
+        <div className='p-4 py-12 my-4'>
+            <h2 className='text-6xl text-center uppercase text-gray-900 mb-8 sm:mb-6 font-league'>The <span className='bg-gradient-to-br from-pink-600 to-pink-500 text-transparent bg-clip-text'>Offer</span></h2>
             <p className='font-poppins text-gray-800 text-lg flex flex-col justify-center items-center text-center'>
                 We're offering free wedding photography services to three couples who would book their dates before 30th June. Free means 100% cashback of what they spend on their wedding-photography.
             </p>
