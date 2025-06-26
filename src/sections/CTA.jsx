@@ -6,14 +6,15 @@ const CTA = () => {
         city: '',
         venue: '',
         eventDates: '',
-        contactNumber: ''
+        contactNumber: '',
+        eventDetails: ''
     });
 
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitStatus, setSubmitStatus] = useState(''); // 'success', 'error', or ''
 
     // Replace this URL with your Google Apps Script Web App URL
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz2T4jD76-Zij5GX_ZAddyl_sljHTOtCVdSNtHN0AZ10ga9CSRBsI7jCQhkVVceYjyr/exec';
+    const GOOGLE_SCRIPT_URL = '';
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -50,7 +51,8 @@ const CTA = () => {
                 city: '',
                 venue: '',
                 eventDates: '',
-                contactNumber: ''
+                contactNumber: '',
+                eventDetails: ''
             });
 
         } catch (error) {
@@ -173,6 +175,7 @@ const CTA = () => {
                                 value={formData.eventDetails}
                                 onChange={handleChange}
                                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+                                required
                             />
                         </div>
 
