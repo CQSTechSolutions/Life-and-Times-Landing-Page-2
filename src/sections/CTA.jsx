@@ -14,7 +14,7 @@ const CTA = () => {
     const [submitStatus, setSubmitStatus] = useState(''); // 'success', 'error', or ''
 
     // Replace this URL with your Google Apps Script Web App URL
-    const GOOGLE_SCRIPT_URL = '';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzl2HCRpf0X5x1jgZ0xH9SbaHvJlXDGYAh-3jekV--v5jGAu1MJC2-4mGBzM12O7OqP7Q/exec';
 
     const handleChange = (e) => {
         const { name, value } = e.target;
